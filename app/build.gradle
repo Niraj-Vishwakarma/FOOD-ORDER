@@ -15,6 +15,10 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+
+    buildFeatures{
+        viewBinding true    // added so that we can use the concept of viewBomding
+    }
     buildTypes {
         release {
             minifyEnabled false

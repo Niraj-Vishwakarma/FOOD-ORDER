@@ -27,9 +27,12 @@ ActivityMainBinding binding ;
 
         list.add(new MainModel(R.drawable.burger1, "burger", "Hot and spicy, fresh as always aloo fried","50" ));
         list.add(new MainModel(R.drawable.burger2, "burger", "Hot and spicy, fresh as always aloo fried","50" ));
-        list.add(new MainModel(R.drawable.pizza, "burger", "Hot and spicy, fresh as always aloo fried","50" ));
+        list.add(new MainModel(R.drawable.pizza, "pizza", "Hot and spicy, fresh as always aloo fried","50" ));
         list.add(new MainModel(R.drawable.burger, "burger", "Hot and spicy, fresh as always aloo fried","50" ));
-        list.add(new MainModel(R.drawable.vadapav, "burger", "Hot and spicy, fresh as always aloo fried","50" ));
+        list.add(new MainModel(R.drawable.vadapav, "vadapav", "Hot and spicy, fresh as always aloo fried","50" ));
+        list.add(new MainModel(R.drawable.chocolate_icecream, "chocolate_icecream", "full of chocolate and chilled","50" ));
+        list.add(new MainModel(R.drawable.venilla_icecream, "venilla_icecream", "cold and loaded with icecream","50" ));
+        list.add(new MainModel(R.drawable.burger, "burger", "Hot and spicy, fresh as always aloo fried","50" ));
         list.add(new MainModel(R.drawable.burger, "burger", "Hot and spicy, fresh as always aloo fried","50" ));
 
         //set adapter
